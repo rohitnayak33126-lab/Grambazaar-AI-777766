@@ -1,0 +1,151 @@
+```html
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Gambazar AI - Fruit Store</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5fff4;
+    color: #222;
+}
+
+header {
+    background: #16833a;
+    color: white;
+    padding: 22px 12px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 32px;
+}
+
+header p {
+    margin-top: 8px;
+}
+
+nav {
+    background: #10652b;
+    padding: 12px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 35px 15px;
+    background: #e0f7d9;
+}
+
+.hero h2 {
+    color: #16833a;
+    font-size: 28px;
+    margin-bottom: 12px;
+}
+
+.hero p {
+    margin-bottom: 15px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 25px 15px;
+}
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #16833a;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 12px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 3px 12px #00000015;
+}
+
+.card img {
+    width: 100%;
+    height: 175px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card h3 {
+    margin: 12px 0;
+}
+
+.price {
+    color: #16833a;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+input {
+    width: 65px;
+    padding: 8px;
+    margin: 8px;
+}
+
+button {
+    border: none;
+    background: #16833a;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover {
+    background: #10652b;
+}
+
+.cart {
+    background: white;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 12px;
+}
+
+.cart h2 {
+    color: #16833a;
+    margin-bottom: 15px;
+}
+
+.cart-item {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.checkout {
+    margin-top: 20px;
+}
+
